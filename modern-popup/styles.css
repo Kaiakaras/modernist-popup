@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Dm Sans', sans-serif;
+}
+
+
+.design {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.background-img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+.popup {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.popup-header {
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.content {
+    margin: 40px 30px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(34, 34, 34);
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+    color: grey;
+    margin-top: 5px;
+}
+
+
+.butn {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 14px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: none;        /* removes any box shadow */
+    outline: none; 
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.butn:hover {
+    color: white;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+
+.footer {
+    position: relative;
+    z-index: 22;
+}
+
+.footer a {
+    color:rgb(69, 69, 123);
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    .popup {
+        width: 370px;
+        height: 380px;
+    }
+
+
+    .popup-header {
+        width: 370px;
+        height: 170px;
+        overflow: hidden;
+    }
+
+    .design {
+        gap: 30px;
+    }
+
+    .footer p, .footer a {
+        font-size: 15px;
+    }
+}
