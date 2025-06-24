@@ -7,7 +7,7 @@ A minimal, clean, futuristic pop up. Custom made, originally by Kaia K. Using HT
 
 ## How it looks on Desktop & Mobile devices:
 
-<img src="https://github.com/Kaiakaras/modernist-popup/blob/main/Created%20by%20Kaia%20K%20%40c.cara.mia.png" width="500" alt="preview"/>
+<img src="https://github.com/Kaiakaras/modernist-popup/blob/main/Created%20by%20Kaia%20K%20%40c.cara.mia.png" width="700" alt="preview"/>
 
 
 ## Features:
